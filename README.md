@@ -10,4 +10,5 @@ Second HW for students in ITIS iOS Laboratory 2016
 
 В остальном - полная свобода фантазии :)
 
-/Users/IldarZalyalov/Desktop/сент.-24-2016 15-27-44.gif
+![alt tag](https://github.com/ZalyalovIldar/HW2Storyboard/tree/master/example.gif)
+
