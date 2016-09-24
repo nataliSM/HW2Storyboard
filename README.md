@@ -10,5 +10,5 @@ Second HW for students in ITIS iOS Laboratory 2016
 
 В остальном - полная свобода фантазии :)
 https://github.com/ZalyalovIldar/
-![alt tag](https://raw.githubusercontent.com/ZalyalovIldar/HW2Storyboard/tree/master/example.gif)
 
+<img src="https://raw.githubusercontent.com/ZalyalovIldar/HW2Storyboard/tree/master/example.gif" alt="Demo" />
