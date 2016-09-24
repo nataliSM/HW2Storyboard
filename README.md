@@ -3,7 +3,7 @@ Second HW for students in ITIS iOS Laboratory 2016
 
 ##Заданием будет воссоздать подобное поведение, как на gif. 
 
-<img src="https://raw.githubusercontent.com/ZalyalovIldar/HW2Storyboard/tree/master/example.gif" alt="Demo" />
+<img src="https://raw.githubusercontent.com/ZalyalovIldar/HW2Storyboard/master/example.gif" alt="Demo" />
 
 ### Немного требований: 
 * Push Переход по кнопке можно делать бесконечное число раз. 
