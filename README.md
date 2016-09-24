@@ -9,6 +9,6 @@ Second HW for students in ITIS iOS Laboratory 2016
 * UILabel - который будет только на самом первом "рутовом" экране. 
 
 В остальном - полная свобода фантазии :)
-
-![alt tag](https://github.com/ZalyalovIldar/HW2Storyboard/tree/master/example.gif)
+https://github.com/ZalyalovIldar/
+![alt tag](https://raw.githubusercontent.com/ZalyalovIldar/HW2Storyboard/tree/master/example.gif)
 
