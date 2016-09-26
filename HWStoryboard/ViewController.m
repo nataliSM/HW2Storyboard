@@ -10,13 +10,57 @@
 
 @interface ViewController ()
 
+@property (strong, nonatomic) NSArray* wordsArr;
+@property (strong, nonatomic) NSArray* colorsArr;
+@property (strong, nonatomic) UILabel *firstLabel;
+@property (weak, nonatomic) IBOutlet UIButton *cancelButton;
+
+
+@property (weak, nonatomic) IBOutlet UIButton *changeButton;
+
 @end
 
 @implementation ViewController
 
+#pragma mark - View Cycle 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    if ([self isEqual: self.navigationController.viewControllers.firstObject])
+    {
+        self.firstLabel = [UILabel new];
+        self.firstLabel.text = @"This is first view controller";
+        [self.firstLabel sizeToFit];
+        self.firstLabel.center = self.view.center;
+        [self.view  addSubview:_firstLabel];
+    }
+    
+    self.wordsArr = @[@"hellYeah", @"bad", @"Goood", @"This is nice", @"Hi"];
+    self.colorsArr = @[[UIColor grayColor],[UIColor cyanColor],[UIColor yellowColor],[UIColor magentaColor],[UIColor blueColor]];
+    
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    NSInteger randomValue = arc4random_uniform(self.colorsArr.count);
+    self.view.backgroundColor = self.colorsArr[randomValue];
+    NSInteger buttonRandomColour = arc4random_uniform(self.colorsArr.count);
+    self.changeButton.backgroundColor = self.colorsArr[buttonRandomColour];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:YES];
+  NSInteger randomValue = arc4random_uniform(self.wordsArr.count);
+    [self.changeButton setTitle:self.wordsArr[randomValue] forState:UIControlStateNormal];
+    [_changeButton sizeToFit];
+}
+
+#pragma mark - Actions
+- (IBAction)cancelButton:(id)sender
+{
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 
