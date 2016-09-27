@@ -36,11 +36,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (IBAction)canellDidClicked:(id)sender
+
+
+- (IBAction)cancelButtonDidClicked:(id)sender
 {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
-
 /*
 #pragma mark - Navigation
 

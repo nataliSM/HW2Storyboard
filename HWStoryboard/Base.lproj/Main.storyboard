@@ -31,7 +31,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Cancel"/>
                                 <connections>
-                                    <action selector="canellDidClicked:" destination="lnv-R1-WuA" eventType="touchUpInside" id="uwt-bu-p5W"/>
+                                    <action selector="cancelButtonDidClicked:" destination="lnv-R1-WuA" eventType="touchUpInside" id="w0e-ED-3Ng"/>
                                 </connections>
                             </button>
                         </subviews>

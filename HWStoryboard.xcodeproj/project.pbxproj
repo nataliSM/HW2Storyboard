@@ -104,7 +104,7 @@
 		7C3F80351D965F9800E94C61 /* HWStoryboard */ = {
 			isa = PBXGroup;
 			children = (
-				E11E8CA21D998B17009535BD /* CloursChangeController */,
+				E11E8CA21D998B17009535BD /* ColorsChangeController */,
 				E11E8CA11D998AEF009535BD /* ShowControllers */,
 				7C3F80391D965F9800E94C61 /* AppDelegate.h */,
 				7C3F803A1D965F9800E94C61 /* AppDelegate.m */,
@@ -152,13 +152,13 @@
 			name = ShowControllers;
 			sourceTree = "<group>";
 		};
-		E11E8CA21D998B17009535BD /* CloursChangeController */ = {
+		E11E8CA21D998B17009535BD /* ColorsChangeController */ = {
 			isa = PBXGroup;
 			children = (
 				7C3F803C1D965F9800E94C61 /* ViewController.h */,
 				7C3F803D1D965F9800E94C61 /* ViewController.m */,
 			);
-			name = CloursChangeController;
+			name = ColorsChangeController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
