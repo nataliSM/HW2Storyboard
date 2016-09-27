@@ -9,9 +9,8 @@
 #import "AfterShowViewController.h"
 
 @interface AfterShowViewController ()
-@property (weak, nonatomic) IBOutlet UIButton *CancelButton;
 
-
+@property (weak, nonatomic) IBOutlet UIButton *cancelButton;
 
 @end
 

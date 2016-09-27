@@ -13,9 +13,6 @@
 @property (strong, nonatomic) NSArray* wordsArr;
 @property (strong, nonatomic) NSArray* colorsArr;
 @property (strong, nonatomic) UILabel *firstLabel;
-@property (weak, nonatomic) IBOutlet UIButton *cancelButton;
-
-
 @property (weak, nonatomic) IBOutlet UIButton *changeButton;
 
 @end

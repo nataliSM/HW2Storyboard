@@ -9,6 +9,9 @@
 #import "ShowViewController.h"
 
 @interface ShowViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *showButton;
+@property (weak, nonatomic) IBOutlet UIButton *cancelButton
+;
 
 
 @end
@@ -17,12 +20,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.cancelButton.hidden = YES;
+    
+    if (![self isEqual:self.navigationController.viewControllers.firstObject])
+    {
+        self.showButton.hidden = YES;
+        self.cancelButton.hidden = NO;
+        
+        
+    }
     // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)canellDidClicked:(id)sender
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 /*
